@@ -7,6 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './shared/material/material.module';
 import { FormsModule } from '@angular/forms';
 import { RouterModule, Routes } from '@angular/router';
+import { HttpClientModule } from '@angular/common/http';
 
 const routes : Routes = [
   { path: 'contactmanager', loadChildren: ()=> import('./contactmanager/contactmanager.module').then(m =>m.ContactmanagerModule)},
@@ -24,6 +25,7 @@ const routes : Routes = [
     AppRoutingModule,
     BrowserAnimationsModule,
     MaterialModule,
+    HttpClientModule,
     RouterModule.forChild(routes)
   
   ],

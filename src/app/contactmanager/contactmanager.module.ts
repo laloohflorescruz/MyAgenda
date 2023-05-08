@@ -8,11 +8,14 @@ import { RouterModule, Routes } from '@angular/router';
 import { MainContentComponent } from './components/main-content/main-content.component';
 import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { ToolbarComponent } from './components/toolbar/toolbar.component';
+import { UserService } from './components/services/user.service';
+import { HttpClientModule } from '@angular/common/http';
 
 const routes : Routes = [
   { 
     path: '', component: ContactmanagerAppComponent,
     children: [
+      {path: ':id', component: MainContentComponent},
       {path: '', component: MainContentComponent}
     ]
   },
@@ -31,7 +34,11 @@ const routes : Routes = [
     CommonModule,
     MaterialModule,
     FormsModule,
+    HttpClientModule,
     RouterModule.forChild(routes)
+  ],
+  providers: [
+    UserService
   ]
 })
 export class ContactmanagerModule { }
