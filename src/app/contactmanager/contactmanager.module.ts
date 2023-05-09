@@ -10,6 +10,7 @@ import { SidenavComponent } from './components/sidenav/sidenav.component';
 import { ToolbarComponent } from './components/toolbar/toolbar.component';
 import { UserService } from './components/services/user.service';
 import { HttpClientModule } from '@angular/common/http';
+import { NotesComponent } from './components/notes/notes.component';
 
 const routes : Routes = [
   { 
@@ -28,7 +29,8 @@ const routes : Routes = [
     ContactmanagerAppComponent,
     ToolbarComponent,
     MainContentComponent,
-    SidenavComponent
+    SidenavComponent,
+    NotesComponent
   ],
   imports: [
     CommonModule,
