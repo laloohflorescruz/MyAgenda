@@ -21,11 +21,11 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 ## Demo Pictures
 
-<img src="https://www.eduardoflores.name/MyAgenda/screen/contactindex01.png"/>
-<img src="https://www.eduardoflores.name/MyAgenda/screen/contactNotes02.png"/>
-<img src="https://www.eduardoflores.name/MyAgenda/screen/contactPaginator03.png"/>
-<img src="https://www.eduardoflores.name/MyAgenda/screen/contactCreator04.png"/>
-<img src="https://www.eduardoflores.name/MyAgenda/screen/contactNew05.png"/>
+<img src="https://www.eduardoflores.name/portfolio/my-agenda/screen/contactindex01.png"/>
+<img src="https://www.eduardoflores.name/portfolio/my-agenda/screen/contactNotes02.png"/>
+<img src="https://www.eduardoflores.name/portfolio/my-agenda/screen/contactPaginator03.png"/>
+<img src="https://www.eduardoflores.name/portfolio/my-agenda/screen/contactCreator04.png"/>
+<img src="https://www.eduardoflores.name/portfolio/my-agenda/screen/contactNew05.png"/>
 
 
 ## Technologies used:
