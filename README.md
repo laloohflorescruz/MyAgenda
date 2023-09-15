@@ -12,13 +12,11 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 
 
 ## Project Features
-1. Anyone can register an account and manage his own daily life expense. 
-2. Report
-3. Dashboard 
-4. Profile setting
-5. forget password
-6. reset password
-7. login etc.
+1. List of contacts
+2. Read basic info
+3. Paginator 
+4. Create contact
+5. Filter searcher 
 
 
 ## Demo Pictures
@@ -30,7 +28,7 @@ Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The appli
 <img src="https://www.eduardoflores.name/MyAgenda/screen/contactNew05.png"/>
 
 
-## Technology Used:
+## Technologies used:
 
 - Angular 16
 - TypeScript
